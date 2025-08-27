@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgb(0,0,0,0.2);
+}
+
+.input {
+    width: 250px;
+    padding: 5px;
+    font-size: 20px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input:focus {
+    border-color: #6200ea;
+    box-shadow: 0 0 4px #6200ea55;
+}
+
+.payment {
+    font-weight: 600;
+    font-size: 20px;
+} 
